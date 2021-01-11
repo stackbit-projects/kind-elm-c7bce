@@ -1,0 +1,47 @@
+---
+label: Documentation Pages
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: >-
+    The title of the page, used both as a page title and as a navigation menu
+    title
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  description: >-
+    The navigation order of the documentation page. This value is ignored for
+    parent section pages.
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: >-
+    Short description of the documentation section. This value is used in
+    documentation overview section and meta data.
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: docs
+  config:
+    required: true
+pages:
+- docs/about/features.md
+- docs/about/_index.md
+- docs/about/overview.md
+- docs/community/_index.md
+- docs/faq/_index.md
+- docs/getting-started/_index.md
+- docs/getting-started/installation.md
+- docs/getting-started/quick-start.md
+- docs/_index.md
+- docs/manage-content/_index.md
+- docs/tools/_index.md
+- docs/tools/plug-ins.md
+- docs/tools/starter-theme.md
+- docs/ui-components/_index.md
+- docs/ui-components/typography.md
